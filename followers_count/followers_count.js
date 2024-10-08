@@ -3,7 +3,7 @@ function increase_count() {
     count ++;
     display_count();
     check_count_value();
-
+}
 function display_count() {
     document.getElementById('count_display').innerHTML = count;
 }
@@ -18,4 +18,5 @@ function check_count_value() {
 function reset_count() {
     count = 0;
     display_count();
+    alert("Follower count was reset.");
 }
